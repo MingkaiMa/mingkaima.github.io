@@ -53,6 +53,13 @@
 
   
   <url>
+    <loc>https://mingkaima.github.io/tags/Design-Pattern/</loc>
+    <lastmod>2021-07-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mingkaima.github.io/tags/OS/</loc>
     <lastmod>2021-07-07</lastmod>
     <changefreq>daily</changefreq>
@@ -61,13 +68,6 @@
   
   <url>
     <loc>https://mingkaima.github.io/tags/algorithm/</loc>
-    <lastmod>2021-07-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://mingkaima.github.io/tags/Design-Pattern/</loc>
     <lastmod>2021-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

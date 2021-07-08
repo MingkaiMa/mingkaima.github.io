@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://www.mingkaima.xyz/2021/07/07/FactoryPattern/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/FactoryPattern/</loc>
     
     <lastmod>2021-07-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mingkaima.xyz/2021/07/07/BuilderPattern/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/BuilderPattern/</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mingkaima.xyz/2021/07/07/AbstractFactoryPattern/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/AbstractFactoryPattern/</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mingkaima.xyz/about/index.html</loc>
+    <loc>https://mingkaima.xyz/about/index.html</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mingkaima.xyz/2021/07/07/Scheduling/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/Scheduling/</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mingkaima.xyz/tags/index.html</loc>
+    <loc>https://mingkaima.xyz/tags/index.html</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mingkaima.xyz/categories/index.html</loc>
+    <loc>https://mingkaima.xyz/categories/index.html</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://www.mingkaima.xyz/2021/07/07/hello-world/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/hello-world/</loc>
     
     <lastmod>2021-07-07</lastmod>
     
@@ -59,7 +59,7 @@
   
 
   <url>
-    <loc>https://www.mingkaima.xyz/</loc>
+    <loc>https://mingkaima.xyz/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -67,21 +67,21 @@
 
   
   <url>
-    <loc>https://www.mingkaima.xyz/tags/Design-Pattern/</loc>
+    <loc>https://mingkaima.xyz/tags/Design-Pattern/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.mingkaima.xyz/tags/OS/</loc>
+    <loc>https://mingkaima.xyz/tags/OS/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://www.mingkaima.xyz/tags/algorithm/</loc>
+    <loc>https://mingkaima.xyz/tags/algorithm/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -90,7 +90,7 @@
 
   
   <url>
-    <loc>https://www.mingkaima.xyz/categories/Operating-System/</loc>
+    <loc>https://mingkaima.xyz/categories/Operating-System/</loc>
     <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

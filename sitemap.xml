@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mingkaima.xyz/2021/07/07/BuilderPattern/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/FactoryPattern/</loc>
     
-    <lastmod>2021-07-07</lastmod>
+    <lastmod>2021-07-08</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mingkaima.xyz/2021/07/07/FactoryPattern/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/BuilderPattern/</loc>
     
     <lastmod>2021-07-07</lastmod>
     

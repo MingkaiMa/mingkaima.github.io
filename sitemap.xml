@@ -2,56 +2,56 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://mingkaima.github.io/2021/07/07/BuilderPattern/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/BuilderPattern/</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mingkaima.github.io/2021/07/07/FactoryPattern/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/FactoryPattern/</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mingkaima.github.io/2021/07/07/AbstractFactoryPattern/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/AbstractFactoryPattern/</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mingkaima.github.io/about/index.html</loc>
+    <loc>https://mingkaima.xyz/about/index.html</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mingkaima.github.io/2021/07/07/Scheduling/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/Scheduling/</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mingkaima.github.io/tags/index.html</loc>
+    <loc>https://mingkaima.xyz/tags/index.html</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mingkaima.github.io/categories/index.html</loc>
+    <loc>https://mingkaima.xyz/categories/index.html</loc>
     
     <lastmod>2021-07-07</lastmod>
     
   </url>
   
   <url>
-    <loc>https://mingkaima.github.io/2021/07/07/hello-world/</loc>
+    <loc>https://mingkaima.xyz/2021/07/07/hello-world/</loc>
     
     <lastmod>2021-07-07</lastmod>
     
@@ -59,30 +59,30 @@
   
 
   <url>
-    <loc>https://mingkaima.github.io/</loc>
-    <lastmod>2021-07-07</lastmod>
+    <loc>https://mingkaima.xyz/</loc>
+    <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://mingkaima.github.io/tags/Design-Pattern/</loc>
-    <lastmod>2021-07-07</lastmod>
+    <loc>https://mingkaima.xyz/tags/Design-Pattern/</loc>
+    <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://mingkaima.github.io/tags/OS/</loc>
-    <lastmod>2021-07-07</lastmod>
+    <loc>https://mingkaima.xyz/tags/OS/</loc>
+    <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://mingkaima.github.io/tags/algorithm/</loc>
-    <lastmod>2021-07-07</lastmod>
+    <loc>https://mingkaima.xyz/tags/algorithm/</loc>
+    <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -90,8 +90,8 @@
 
   
   <url>
-    <loc>https://mingkaima.github.io/categories/Operating-System/</loc>
-    <lastmod>2021-07-07</lastmod>
+    <loc>https://mingkaima.xyz/categories/Operating-System/</loc>
+    <lastmod>2021-07-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>

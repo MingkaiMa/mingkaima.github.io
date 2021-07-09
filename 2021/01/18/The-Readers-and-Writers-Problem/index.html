@@ -20,19 +20,22 @@
     var CONFIG = {"hostname":"mingkaima.xyz","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="Problem DescriptionThis problem models access to a database. Imagine, an airline reservation system, with many competing processes wishing to read and write it. It is acceptable to have multiple proce">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://mingkaima.xyz/2021/07/07/hello-world/index.html">
+<meta property="og:title" content="The Readers and Writers Problem">
+<meta property="og:url" content="https://mingkaima.xyz/2021/01/18/The-Readers-and-Writers-Problem/index.html">
 <meta property="og:site_name" content="Mingkai&#39;s Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Problem DescriptionThis problem models access to a database. Imagine, an airline reservation system, with many competing processes wishing to read and write it. It is acceptable to have multiple proce">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-07-07T03:40:08.292Z">
-<meta property="article:modified_time" content="2021-07-07T03:40:08.292Z">
+<meta property="article:published_time" content="2021-01-18T11:08:17.000Z">
+<meta property="article:modified_time" content="2021-07-09T00:48:54.144Z">
 <meta property="article:author" content="Mingkai Ma">
+<meta property="article:tag" content="OS">
+<meta property="article:tag" content="algorithm">
+<meta property="article:tag" content="scheduling">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://mingkaima.xyz/2021/07/07/hello-world/">
+<link rel="canonical" href="https://mingkaima.xyz/2021/01/18/The-Readers-and-Writers-Problem/">
 
 
 <script id="page-configurations">
@@ -45,7 +48,7 @@
   };
 </script>
 
-  <title>Hello World | Mingkai's Blog</title>
+  <title>The Readers and Writers Problem | Mingkai's Blog</title>
   
 
 
@@ -165,7 +168,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://mingkaima.xyz/2021/07/07/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://mingkaima.xyz/2021/01/18/The-Readers-and-Writers-Problem/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -178,7 +181,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          The Readers and Writers Problem
         </h1>
 
         <div class="post-meta">
@@ -188,7 +191,23 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2021-07-07 13:40:08" itemprop="dateCreated datePublished" datetime="2021-07-07T13:40:08+10:00">2021-07-07</time>
+              <time title="Created: 2021-01-18 22:08:17" itemprop="dateCreated datePublished" datetime="2021-01-18T22:08:17+11:00">2021-01-18</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-07-09 10:48:54" itemprop="dateModified" datetime="2021-07-09T10:48:54+10:00">2021-07-09</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Operating-System/" itemprop="url" rel="index"><span itemprop="name">Operating System</span></a>
+                </span>
             </span>
 
           
@@ -202,19 +221,14 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+        <h5 id="Problem-Description"><a href="#Problem-Description" class="headerlink" title="Problem Description"></a>Problem Description</h5><p>This problem models access to a database. Imagine, an airline reservation system, with many competing processes wishing to read and write it. It is acceptable to have multiple processes reading the database at the same time, but if one process is updating (writing) the database, no other processes may have access to the database, not even readers.</p>
+<p>The question how to program the readers and the writers.</p>
+<h5 id="Solution"><a href="#Solution" class="headerlink" title="Solution"></a>Solution</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="keyword">int</span> semaphore;</span><br><span class="line">semaphore mutex = <span class="number">1</span>;</span><br><span class="line">semaphore db = <span class="number">1</span>;</span><br><span class="line"><span class="keyword">int</span> rc = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">reader</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">while</span>(TRUE)</span><br><span class="line">  &#123;</span><br><span class="line">		down(&amp;mutex);</span><br><span class="line">    rc = rc + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(rc == <span class="number">1</span>) down(&amp;db);</span><br><span class="line">    up(&amp;mutex);</span><br><span class="line">    read_data_base();</span><br><span class="line">    down(&amp;mutex);</span><br><span class="line">    rc = rc - <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">if</span>(rc == <span class="number">0</span>) up(&amp;db);</span><br><span class="line">    up(&amp;mutex);</span><br><span class="line">    use_data_read();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">writer</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">while</span>(TRUE)</span><br><span class="line">  &#123;</span><br><span class="line">    think_up_data();</span><br><span class="line">    down(&amp;db);</span><br><span class="line">    write_data_base();</span><br><span class="line">    up(&amp;db);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>The first reader to get access to the database does a down on the semaphore <em>db</em>. Subsquent readers merely increment a counter, <em>rc</em>. As readers leave, they decrement the counter, and the last one out does an up on the semaphore, allowing a blocked writer, if there is on, to get in.</p>
+<p>One thing worth noting: suppose that while a reader is using the database, another reader comes along. Since having two readers at the same time is not a problem, the second reader is admitted. Additional readers can also be admitted if they come along.</p>
+<p>Now suppose that a writer shows up. The writer may not be admitted to the database, since writers must have exclusive access, so the writer is suspended. Later, additional readers show up. As long as at least one reader is still active, subsequent readers are admitted. As a consequence of this strategy, as long as there is a steady supply of readers, they will all get in as soon as they arrive. The writer will be kept suspended until no reader is present. If a new reader arrives every 2 seconds, and each reader takes 5 seconds to do its work, the writer will never get in.</p>
+<p>To prevent this situation, the program could be written slightly differently: when a reader arrives and a writer is waiting, the reader is suspended behind the writer instead of being admitted immediately. In this way, a writer has to wait for reader that were active when it arrived to finish but doesn’t have to wait or readers that came along after it. The disadvantage of this solution is that it achieves less concurrenct and thus lower performance.</p>
 
     </div>
 
@@ -223,6 +237,11 @@
     
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/OS/" rel="tag"># OS</a>
+              <a href="/tags/algorithm/" rel="tag"># algorithm</a>
+              <a href="/tags/scheduling/" rel="tag"># scheduling</a>
+          </div>
 
         
 
@@ -230,12 +249,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/01/18/The-Readers-and-Writers-Problem/" rel="prev" title="The Readers and Writers Problem">
-      <i class="fa fa-chevron-left"></i> The Readers and Writers Problem
+    <a href="/2020/12/16/The-Dining-Philosophers-Problem/" rel="prev" title="The Dining Philosophers Problem">
+      <i class="fa fa-chevron-left"></i> The Dining Philosophers Problem
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021/07/07/Scheduling/" rel="next" title="Scheduling">
-      Scheduling <i class="fa fa-chevron-right"></i>
+    <a href="/2021/07/07/hello-world/" rel="next" title="Hello World">
+      Hello World <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -295,7 +314,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-5"><a class="nav-link" href="#Problem-Description"><span class="nav-number">1.</span> <span class="nav-text">Problem Description</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#Solution"><span class="nav-number">2.</span> <span class="nav-text">Solution</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
